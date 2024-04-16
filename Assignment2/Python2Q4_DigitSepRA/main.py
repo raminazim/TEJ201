@@ -1,4 +1,7 @@
-
+#Name: Ramin
+#Date: 04/30/24
+#Title: Digit Seperate
+#Purpose: Seperate Digits
 
 num = int(input('Enter 2 digit number: '))
 
