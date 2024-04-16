@@ -3,9 +3,9 @@
 #Title: Digit Seperate
 #Purpose: Seperate Digits
 
-num = int(input('Enter 2 digit number: '))
+Num = int(input('Enter 2 digit number: '))
 
-ten = num // 10
-unit = num % 10
+Ten = Num // 10
+Unit = Num % 10
 
-print(f'ten: {ten} \n unit: {unit}')
+print(f'ten: {Ten} \n unit: {Unit}')
