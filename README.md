@@ -1,2 +1,3 @@
 Don't let Mr.Ryu, Mr.V and most importantly Tarun see this. 🤲
-Also special thanks to Mahran Khandaker.
+<br>
+Also special thanks to <a href='https://github.com/Desktopvibez'>@Desktopvibez</a>.
