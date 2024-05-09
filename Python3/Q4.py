@@ -29,4 +29,4 @@ print('Gross: ' , GrossIncome)
 print('Income Tax Owed: ' , IncomeTax)
 print('Net Income: ' , NetIncome)
 
-# I Want Some Credit For All The Math I Did For This Shit
+# I Want Some Credit For All The Math I Did For This
