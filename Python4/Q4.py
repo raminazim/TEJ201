@@ -10,7 +10,7 @@ while True:
     Num3 = int(input('Number 3: '))
 
     if Num1 == Combo1 and Num2 == Combo2 and Num3 == Combo3:
-        print("Unlocked")
+        print('Unlocked')
         break
     else:
-        print("Incorrect")
+        print('Incorrect)
