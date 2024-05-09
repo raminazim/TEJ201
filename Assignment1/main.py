@@ -5,9 +5,9 @@
 
 # Input
 
-strName = input(print('Name: '))
-intAge = int(input(print('Age: ')))
-strColour = input(print('Favorite Colour: '))
+strName = input('Name: ')
+intAge = int(input('Age: '))
+strColour = input('Favorite Colour: ')
 
 # Process
 # Convert age to different time measurements

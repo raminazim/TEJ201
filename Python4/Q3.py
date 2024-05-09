@@ -5,7 +5,7 @@ Num1, Num2, Num3 = 0.0, 0.0, 0.0
 intCounter = 0
 
 while Num < 3:
-    Num = int(input(print("Enter Number < 3: ")))
+    Num = int(input("Enter Number < 3: "))
 
 while True:
     random.seed()

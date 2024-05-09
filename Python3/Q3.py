@@ -17,7 +17,7 @@ elif Op == 4:
     Ans = NumOne / NumTwo
     Op = str('/')
 
-UsrAns = int(input(print('Answer: ' , NumOne , Op , NumTwo)))
+UsrAns = int(input('Answer: ' , NumOne , Op , NumTwo))
 
 if UsrAns > Ans:
     print('Too High')

@@ -1,4 +1,4 @@
-Num = int(input(print('Enter Number: ')))
+Num = int(input('Enter Number: '))
 
 if Num > 999:
      print('Invalid')
