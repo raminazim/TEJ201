@@ -1,8 +1,8 @@
-import random # I Don't Know If We Allowed To Use Libraries 🤷‍♂️
+import random
 
-NumOne = random.randint(1,10)
-Op = random.randint(1,4)
-NumTwo = random.randint(1,10)
+NumOne = random.randint(1,11)
+Op = random.randint(1,5)
+NumTwo = random.randint(1,11)
 
 if Op == 1:
     Ans = NumOne + NumTwo
