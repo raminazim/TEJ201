@@ -20,20 +20,20 @@ intQ5Num1 = random.randint(0, 26)
 intQ5Num2 = random.randint(0, 10)
 intQ5Ans = intQ5Num1 ** intQ5Num2
 
-Score = 0
+intScore = 0
 
 print(intQ1Num1 , '+' , intQ1Num2)
 intUsrInput = int(input())
 
 if intUsrInput == intQ1Ans:
      print('Correct')
-     Score += 3
+     intScore += 3
 else:
      print(intQ1Num1, '+', intQ1Num2)
      intUsrInput = int(input())
      if intUsrInput == intQ1Ans:
           print('Correct')
-          Score += 2
+          intScore += 2
      else:
           if intUsrInput > intQ1Ans:
                print('Answer Too High')
@@ -41,7 +41,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ1Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ1Ans)
           else:
@@ -50,7 +50,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ1Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ1Ans)
 
@@ -59,13 +59,13 @@ intUsrInput = int(input())
 
 if intUsrInput == intQ2Ans:
      print('Correct')
-     Score += 3
+     intScore += 3
 else:
      print(intQ2Num1, '-', intQ2Num2)
      intUsrInput = int(input())
      if intUsrInput == intQ2Ans:
           print('Correct')
-          Score += 2
+          intScore += 2
      else:
           if intUsrInput > intQ2Ans:
                print('Answer Too High')
@@ -73,7 +73,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ2Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ2Ans)
           else:
@@ -82,7 +82,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ2Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ2Ans)
 
@@ -91,13 +91,13 @@ intUsrInput = int(input())
 
 if intUsrInput == intQ3Ans:
      print('Correct')
-     Score += 3
+     intScore += 3
 else:
      print(intQ3Num1, '*', intQ3Num2)
      intUsrInput = int(input())
      if intUsrInput == intQ3Ans:
           print('Correct')
-          Score += 2
+          intScore += 2
      else:
           if intUsrInput > intQ3Ans:
                print('Answer Too High')
@@ -105,7 +105,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ3Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ3Ans)
           else:
@@ -114,7 +114,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ3Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ3Ans)
 
@@ -123,13 +123,13 @@ intUsrInput = int(input())
 
 if intUsrInput == intQ4Ans:
      print('Correct')
-     Score += 3
+     intScore += 3
 else:
      print(intQ4Num1, '/', intQ4Num2)
      intUsrInput = int(input())
      if intUsrInput == intQ4Ans:
           print('Correct')
-          Score += 2
+          intScore += 2
      else:
           if intUsrInput > intQ4Ans:
                print('Answer Too High')
@@ -137,7 +137,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ4Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ4Ans)
           else:
@@ -146,7 +146,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ4Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ' , intQ4Ans)
 
@@ -155,13 +155,13 @@ intUsrInput = int(input())
 
 if intUsrInput == intQ5Ans:
      print('Correct')
-     Score += 3
+     intScore += 3
 else:
      print(intQ5Num1, '**', intQ5Num2)
      intUsrInput = int(input())
      if intUsrInput == intQ5Ans:
           print('Correct')
-          Score += 2
+          intScore += 2
      else:
           if intUsrInput > intQ5Ans:
                print('Answer Too High')
@@ -169,7 +169,7 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ5Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ', intQ5Ans)
           else:
@@ -178,15 +178,15 @@ else:
                intUsrInput = int(input())
                if intUsrInput == intQ5Ans:
                     print('Correct')
-                    Score += 1
+                    intScore += 1
                else:
                     print('Answer was ', intQ5Ans)
 
-print('Final Score: ' , Score , '/15')
-print('Percentage' , Score/15 , '%')
-if Score > 10:
+print('Final Score: ' , intScore , '/15')
+print('Percentage' , intScore/15 , '%')
+if intScore > 10:
      print('Great Job')
-elif Score > 5:
+elif intScore > 5:
      print('Good Job')
 else:
      print('Do Better...')
