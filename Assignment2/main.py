@@ -13,7 +13,7 @@ intQ3Num2 = random.randint(0, 26)
 intQ3Ans = intQ3Num1 * intQ3Num2
 
 intQ4Num1 = random.randint(0, 26)
-intQ4Num2 = random.randint(0, 26)
+intQ4Num2 = random.randint(1, 26)
 intQ4Ans = intQ4Num1 / intQ4Num2
 
 intQ5Num1 = random.randint(0, 26)
