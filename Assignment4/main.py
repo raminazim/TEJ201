@@ -21,9 +21,9 @@ intCircleYTWO = 275
 intCircleXTHREE = 800
 intCircleYTHREE = 175
 
-intCarSpeedONE = 7
-intCarSpeedTWO = 9
-intCarSpeedTHREE = 12
+intCarSpeedONE = 25
+intCarSpeedTWO = 37.5
+intCarSpeedTHREE = 50
 
 intRectX = 400
 intRectY = 500
@@ -115,3 +115,4 @@ while running:
   pygame.display.update()
 
 pygame.quit()
+
