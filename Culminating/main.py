@@ -40,24 +40,12 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    # Player One controls (WASD)
+    # Player Controls
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_w]:
-        car1_y -= 2
-    if keys[pygame.K_s]:
-        car1_y += 2
-    if keys[pygame.K_a]:
-        car1_x -= 2
+
     if keys[pygame.K_d]:
         car1_x += 2
 
-    # Player Two controls (Arrow keys)
-    if keys[pygame.K_UP]:
-        car2_y -= 2
-    if keys[pygame.K_DOWN]:
-        car2_y += 2
-    if keys[pygame.K_LEFT]:
-        car2_x -= 2
     if keys[pygame.K_RIGHT]:
         car2_x += 2
 
