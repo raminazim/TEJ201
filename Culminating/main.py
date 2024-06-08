@@ -27,7 +27,7 @@ car2_x, car2_y = 100, 300
 
 # Define the positions of obstacles along the x-axis and set their properties
 ObstaclePositions = [400, 800, 1200, 1600]
-Obstacles = [{'x': pos, 'y': 0, 'speed': 1, 'direction': 1} for pos in ObstaclePositions]
+Obstacles = [{'x': pos, 'y': 0, 'speed': 3, 'direction': 1} for pos in ObstaclePositions]
 
 running = True  # Variable to control the main game loop
 game_state = "start"  # Set the initial game state to start
