@@ -8,7 +8,7 @@ screen_width, screen_height = 2000, 500
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 
-pygame.display.set_caption("Two Player Racing Game")
+pygame.display.set_caption("Need For Speed: Need For Range Rover")
 
 
 WHITE = (255, 255, 255)
