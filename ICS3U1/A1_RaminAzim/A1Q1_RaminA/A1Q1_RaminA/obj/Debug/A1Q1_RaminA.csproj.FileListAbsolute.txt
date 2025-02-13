@@ -1,7 +1,0 @@
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\bin\Debug\A1Q1_RaminA.exe.config
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\bin\Debug\A1Q1_RaminA.exe
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\bin\Debug\A1Q1_RaminA.pdb
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\obj\Debug\A1Q1_RaminA.csproj.AssemblyReference.cache
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\obj\Debug\A1Q1_RaminA.csproj.CoreCompileInputs.cache
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\obj\Debug\A1Q1_RaminA.exe
-H:\My Drive\ICS3U1\Assignment1\A1Q1_RaminA\A1Q1_RaminA\obj\Debug\A1Q1_RaminA.pdb
